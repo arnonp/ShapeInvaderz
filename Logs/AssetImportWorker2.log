@@ -1,0 +1,707 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.10f1 (1c7d0df0160b) revision 1867021'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Enterprise' Language: 'en' Physical Memory: 32435 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/arnonperetz/ShapeInvaderz
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+50297
+Successfully changed project path to: C:/Users/arnonperetz/ShapeInvaderz
+C:/Users/arnonperetz/ShapeInvaderz
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 51.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.10f1 (1c7d0df0160b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/arnonperetz/ShapeInvaderz/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x46a6)
+    Vendor:   Intel
+    VRAM:     16217 MB
+    Driver:   31.0.101.3413
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56008
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003513 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 56.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.484 seconds
+Domain Reload Profiling:
+	ReloadAssembly (484ms)
+		BeginReloadAssembly (52ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (352ms)
+			LoadAssemblies (51ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (78ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (211ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (57ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (108ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004225 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\arnonperetz\ShapeInvaderz\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\arnonperetz\ShapeInvaderz\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  8.162 seconds
+Domain Reload Profiling:
+	ReloadAssembly (8163ms)
+		BeginReloadAssembly (80ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (7882ms)
+			LoadAssemblies (4788ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1003ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (2023ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (339ms)
+				ProcessInitializeOnLoadMethodAttributes (1614ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3442 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (113.8 KB). Loaded Objects now: 3904.
+Memory consumption went from 125.1 MB to 125.0 MB.
+Total: 2.626900 ms (FindLiveObjects: 0.182800 ms CreateObjectMapping: 0.081000 ms MarkObjects: 2.269700 ms  DeleteObjects: 0.092600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 46880.720835 seconds.
+  path: Assets/Prefabs/Firework.prefab
+  artifactKey: Guid(4ee3806d453dcbb4e958ecedcec22cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Firework.prefab using Guid(4ee3806d453dcbb4e958ecedcec22cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b12d5fe86199f149b06b83f74a7531a4') in 0.188487 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003833 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\arnonperetz\ShapeInvaderz\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\arnonperetz\ShapeInvaderz\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.756 seconds
+Domain Reload Profiling:
+	ReloadAssembly (756ms)
+		BeginReloadAssembly (95ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (596ms)
+			LoadAssemblies (56ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (171ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (301ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (48ms)
+				ProcessInitializeOnLoadAttributes (208ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3424 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (80.6 KB). Loaded Objects now: 3916.
+Memory consumption went from 128.2 MB to 128.2 MB.
+Total: 3.127000 ms (FindLiveObjects: 0.221300 ms CreateObjectMapping: 0.096900 ms MarkObjects: 2.700800 ms  DeleteObjects: 0.106500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 53.553858 seconds.
+  path: Assets/Scripts/Player.cs
+  artifactKey: Guid(695f8630058747b40bceeb6953fcf415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player.cs using Guid(695f8630058747b40bceeb6953fcf415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007767 seconds  code(4) message(Build asset version error: assets/scripts/player.cs in SourceAssetDB has modification time of '2022-09-22T04:38:59.1041315Z' while content on disk has modification time of '2022-09-22T04:38:59.2567607Z')
+  ERROR: Build asset version error: assets/scripts/player.cs in SourceAssetDB has modification time of '2022-09-22T04:38:59.1041315Z' while content on disk has modification time of '2022-09-22T04:38:59.2567607Z'
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005668 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\arnonperetz\ShapeInvaderz\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\arnonperetz\ShapeInvaderz\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.929 seconds
+Domain Reload Profiling:
+	ReloadAssembly (930ms)
+		BeginReloadAssembly (139ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (680ms)
+			LoadAssemblies (83ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (254ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (267ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (156ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3424 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (80.6 KB). Loaded Objects now: 3919.
+Memory consumption went from 128.2 MB to 128.2 MB.
+Total: 2.749100 ms (FindLiveObjects: 0.175000 ms CreateObjectMapping: 0.087700 ms MarkObjects: 2.409000 ms  DeleteObjects: 0.076300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004107 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\arnonperetz\ShapeInvaderz\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\arnonperetz\ShapeInvaderz\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.789 seconds
+Domain Reload Profiling:
+	ReloadAssembly (790ms)
+		BeginReloadAssembly (98ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (624ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (173ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (321ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (52ms)
+				ProcessInitializeOnLoadAttributes (222ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3424 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (80.7 KB). Loaded Objects now: 3922.
+Memory consumption went from 128.3 MB to 128.2 MB.
+Total: 3.154100 ms (FindLiveObjects: 0.203600 ms CreateObjectMapping: 0.096700 ms MarkObjects: 2.734700 ms  DeleteObjects: 0.117700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 95.716779 seconds.
+  path: Assets/Materials/PlayerShard8.mat
+  artifactKey: Guid(ced0ef83271c5d3419c93b77a1671b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/PlayerShard8.mat using Guid(ced0ef83271c5d3419c93b77a1671b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb9b78a9f0d283dfe557b50d96601182') in 0.127187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 42.347914 seconds.
+  path: Assets/Materials/ShipMaterial.mat
+  artifactKey: Guid(d788d792ed43ac1458b0fe67587e48a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/ShipMaterial.mat using Guid(d788d792ed43ac1458b0fe67587e48a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cb299a17090922f527d2078447071da') in 0.016550 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004716 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\arnonperetz\ShapeInvaderz\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\arnonperetz\ShapeInvaderz\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.473 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1474ms)
+		BeginReloadAssembly (154ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (1211ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (327ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (623ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (109ms)
+				ProcessInitializeOnLoadAttributes (421ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3424 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (80.6 KB). Loaded Objects now: 3958.
+Memory consumption went from 128.5 MB to 128.4 MB.
+Total: 4.926100 ms (FindLiveObjects: 0.486300 ms CreateObjectMapping: 0.152600 ms MarkObjects: 4.112200 ms  DeleteObjects: 0.172600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 394.075771 seconds.
+  path: Assets/Materials/ShipMaterial.mat
+  artifactKey: Guid(d788d792ed43ac1458b0fe67587e48a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/ShipMaterial.mat using Guid(d788d792ed43ac1458b0fe67587e48a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba5e05dfb71740a7c25db43b5cc19f2d') in 0.079025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.703501 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(94f6751f75be84643a5a62fd4317a15f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(94f6751f75be84643a5a62fd4317a15f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfc01dd083d234296e7ad3b0eb07695c') in 0.079410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 559.707556 seconds.
+  path: Assets/Materials/ShipMaterial.mat
+  artifactKey: Guid(d788d792ed43ac1458b0fe67587e48a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/ShipMaterial.mat using Guid(d788d792ed43ac1458b0fe67587e48a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '537f58f8d6486dd068fcd606517f0866') in 1.256449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.367443 seconds.
+  path: Assets/Treys/Spaceships
+  artifactKey: Guid(006fd2aa0bae70847b9bd93f7be4b202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treys/Spaceships using Guid(006fd2aa0bae70847b9bd93f7be4b202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66c301c2752ad5f3e6195ec815f07f64') in 0.009926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.479126 seconds.
+  path: Assets/Treys/Spaceships/Materials
+  artifactKey: Guid(10254987a7c586f48b17b43f54a43e7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treys/Spaceships/Materials using Guid(10254987a7c586f48b17b43f54a43e7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94d7fda1965daf4e7e87c04a61b05736') in 0.008388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.074804 seconds.
+  path: Assets/Treys/Spaceships/Materials/palette-01.mat
+  artifactKey: Guid(d79a83adef48e0c41bf93a4d0491ac1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treys/Spaceships/Materials/palette-01.mat using Guid(d79a83adef48e0c41bf93a4d0491ac1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66e881f2766275ab9db9d60a53740789') in 0.017293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.598754 seconds.
+  path: Assets/Treys/Spaceships/Meshes/1.1.fbx
+  artifactKey: Guid(7caaf0ba83e07254dbdff1638edd18d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treys/Spaceships/Meshes/1.1.fbx using Guid(7caaf0ba83e07254dbdff1638edd18d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8dc604be4abda26595c31984ec04731') in 0.049256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Treys/Spaceships/Meshes/3.4.fbx
+  artifactKey: Guid(8c968ac718a44a14ebba3b5a1cc9de70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treys/Spaceships/Meshes/3.4.fbx using Guid(8c968ac718a44a14ebba3b5a1cc9de70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ceba71dc37856ed36cc95b0dc8d9cd9') in 0.028598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Treys/Spaceships/Meshes/1.4.fbx
+  artifactKey: Guid(d69c1a73778fb094cb4d81ba745f648d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treys/Spaceships/Meshes/1.4.fbx using Guid(d69c1a73778fb094cb4d81ba745f648d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '896a0247d23d75322e46f596d31b60d5') in 0.025295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Treys/Spaceships/Meshes/2.3.fbx
+  artifactKey: Guid(d261f834213a6454b812c51d722b2439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treys/Spaceships/Meshes/2.3.fbx using Guid(d261f834213a6454b812c51d722b2439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac959dd9aceacb1830bcf273770168e3') in 0.041332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Treys/Spaceships/Meshes/2.4.fbx
+  artifactKey: Guid(ea404b3152118a04dbb1f3e7ca165223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treys/Spaceships/Meshes/2.4.fbx using Guid(ea404b3152118a04dbb1f3e7ca165223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '090a5e86acf1572b06d615690379e8e9') in 0.046248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Treys/Spaceships/Meshes/6.1.fbx
+  artifactKey: Guid(90e2b7d795f813f44b4001b2d7a3d3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treys/Spaceships/Meshes/6.1.fbx using Guid(90e2b7d795f813f44b4001b2d7a3d3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '473c939c5b9c9da2aa6c31777c1d3929') in 0.050417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Treys/Spaceships/Meshes/1.5.fbx
+  artifactKey: Guid(36f03cd9c9a8a38478e95876c7c4bf6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treys/Spaceships/Meshes/1.5.fbx using Guid(36f03cd9c9a8a38478e95876c7c4bf6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2852bf6723d411a9c2c437b0d518c137') in 0.026727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Treys/Spaceships/Meshes/1.3.fbx
+  artifactKey: Guid(27eaa223735c9e64caa98cb7b2945c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treys/Spaceships/Meshes/1.3.fbx using Guid(27eaa223735c9e64caa98cb7b2945c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a526e588d1ca0815585528bbd1dc023d') in 0.042039 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Treys/Spaceships/Meshes/3.3.fbx
+  artifactKey: Guid(329fa5d7816ca8345b749d082d2918c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treys/Spaceships/Meshes/3.3.fbx using Guid(329fa5d7816ca8345b749d082d2918c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e86828f2981539638c71742a6af23d6') in 0.050032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Treys/Spaceships/Meshes/6.5.fbx
+  artifactKey: Guid(ecd39d7ffb7f3474ba3e62c808c8fef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treys/Spaceships/Meshes/6.5.fbx using Guid(ecd39d7ffb7f3474ba3e62c808c8fef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b576574bff9ae67a55bf6ec416970563') in 0.047870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Treys/Spaceships/Meshes/7.1.fbx
+  artifactKey: Guid(cbb78723d1587fa4c9d66f0a6bd76df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treys/Spaceships/Meshes/7.1.fbx using Guid(cbb78723d1587fa4c9d66f0a6bd76df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29f2510cafdac28baaabf1f7a14a08fd') in 0.026010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Treys/Spaceships/Meshes/6.3.fbx
+  artifactKey: Guid(690f576588fd2064ca7034c205f84f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treys/Spaceships/Meshes/6.3.fbx using Guid(690f576588fd2064ca7034c205f84f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8bafb9c8fd5ecd2ad7abb9114432f5f') in 0.028927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Treys/Spaceships/Meshes/4.2.fbx
+  artifactKey: Guid(55ac3fdefa83c6244b5fa92daebe0b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treys/Spaceships/Meshes/4.2.fbx using Guid(55ac3fdefa83c6244b5fa92daebe0b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c6c2dd5467eba40140442cd46578f15') in 0.029449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Treys/Spaceships/Meshes/3.5.fbx
+  artifactKey: Guid(5d2645e6a99eba84db2a887c75893f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treys/Spaceships/Meshes/3.5.fbx using Guid(5d2645e6a99eba84db2a887c75893f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2d2171fb8db107a4c34ea6342a66da6') in 0.055257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Treys/Spaceships/Meshes/4.1.fbx
+  artifactKey: Guid(73986c9c36db5794eb3ff2bf613de956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treys/Spaceships/Meshes/4.1.fbx using Guid(73986c9c36db5794eb3ff2bf613de956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1963193fc32edd92274fb9940716729b') in 0.029733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Treys/Spaceships/Meshes/7.4.fbx
+  artifactKey: Guid(81368527ba6a9fd47a9d5d5a6ecfb4bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treys/Spaceships/Meshes/7.4.fbx using Guid(81368527ba6a9fd47a9d5d5a6ecfb4bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22e1eb1eb6b56c0104dbf220b51b7c58') in 0.030410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Treys/Spaceships/Meshes/3.2.fbx
+  artifactKey: Guid(cb525f6b08595e34d80affe26836c178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treys/Spaceships/Meshes/3.2.fbx using Guid(cb525f6b08595e34d80affe26836c178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1617af43fa2fcf23f6b2a64c39b16c17') in 0.043112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Treys/Spaceships/Meshes/5.3.fbx
+  artifactKey: Guid(1ced72a21e301354ab9612efc3caa845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treys/Spaceships/Meshes/5.3.fbx using Guid(1ced72a21e301354ab9612efc3caa845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4548ac28993835780fd0192ee62694c5') in 0.043966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.321179 seconds.
+  path: Assets/Treys/Spaceships/Prefabs/1.1.prefab
+  artifactKey: Guid(c484e9ee88e6f4942ad5c8a0461c6493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treys/Spaceships/Prefabs/1.1.prefab using Guid(c484e9ee88e6f4942ad5c8a0461c6493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e87fb907a740966102185934e68829ad') in 0.018461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Treys/Spaceships/Prefabs/2.2.prefab
+  artifactKey: Guid(458f67c199376214eb84916966ce6933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treys/Spaceships/Prefabs/2.2.prefab using Guid(458f67c199376214eb84916966ce6933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e98e058a959743fcdf557519f2798377') in 0.017441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Treys/Spaceships/Prefabs/6.1.prefab
+  artifactKey: Guid(a672ad5b71c8cc44ca985cfc35b6dbaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treys/Spaceships/Prefabs/6.1.prefab using Guid(a672ad5b71c8cc44ca985cfc35b6dbaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '410fbfca814672c809e686274a3d1068') in 0.014022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Treys/Spaceships/Prefabs/3.2.prefab
+  artifactKey: Guid(951c81cd67c4d914abf2cb48f85ac47f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treys/Spaceships/Prefabs/3.2.prefab using Guid(951c81cd67c4d914abf2cb48f85ac47f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '997e61ae0198a1439bbf2e7aa3795f44') in 0.014735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Treys/Spaceships/Prefabs/4.1.prefab
+  artifactKey: Guid(8830d72630a2eea418d0456716001425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treys/Spaceships/Prefabs/4.1.prefab using Guid(8830d72630a2eea418d0456716001425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0c74248e940a4fbf09110ab94658896') in 0.014841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Treys/Spaceships/Prefabs/7.1.prefab
+  artifactKey: Guid(62990642302a7cc498dad6b168295e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treys/Spaceships/Prefabs/7.1.prefab using Guid(62990642302a7cc498dad6b168295e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '058ebc74dea2d048ee88de097a359515') in 0.022333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Treys/Spaceships/Prefabs/2.4.prefab
+  artifactKey: Guid(07515c5236664774c97113c3c64aff96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treys/Spaceships/Prefabs/2.4.prefab using Guid(07515c5236664774c97113c3c64aff96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6780d48f1515ba68c52d21695c74dc46') in 0.020744 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Treys/Spaceships/Prefabs/5.3.prefab
+  artifactKey: Guid(f18cef774753a3b47be966654f6e6097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treys/Spaceships/Prefabs/5.3.prefab using Guid(f18cef774753a3b47be966654f6e6097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f13bc55a268a03afafbb9f01695b670') in 0.016166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Treys/Spaceships/Prefabs/1.4.prefab
+  artifactKey: Guid(a086ec1eb3b77a842acf8337b9e73d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treys/Spaceships/Prefabs/1.4.prefab using Guid(a086ec1eb3b77a842acf8337b9e73d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c66c9066f7ebe8f50fce0db043502d7') in 0.019628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Treys/Spaceships/Prefabs/7.2.prefab
+  artifactKey: Guid(a028500f0a4595f4aadd152495438ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treys/Spaceships/Prefabs/7.2.prefab using Guid(a028500f0a4595f4aadd152495438ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a841e3ab39c82616ba9608c524c24f2') in 0.014802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Treys/Spaceships/Prefabs/3.5.prefab
+  artifactKey: Guid(6cc686c6703558c408423db7f69fcd30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treys/Spaceships/Prefabs/3.5.prefab using Guid(6cc686c6703558c408423db7f69fcd30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8d637b7facb742a1d259d0d8772bcb9') in 0.016913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Treys/Spaceships/Prefabs/3.3.prefab
+  artifactKey: Guid(8116cd1d77578a54eb458577fb1fe746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treys/Spaceships/Prefabs/3.3.prefab using Guid(8116cd1d77578a54eb458577fb1fe746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a61284dbeff98f2fd50360e8b74abb9') in 0.014689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Treys/Spaceships/Prefabs/3.1.prefab
+  artifactKey: Guid(759dff70eb5bd9248bb05b82a5e93cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treys/Spaceships/Prefabs/3.1.prefab using Guid(759dff70eb5bd9248bb05b82a5e93cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b47aec0aab2eb437e26ecaacd80657e7') in 0.015357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Treys/Spaceships/Prefabs/2.1.prefab
+  artifactKey: Guid(311599e2534effb4fbb4eead92e22bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treys/Spaceships/Prefabs/2.1.prefab using Guid(311599e2534effb4fbb4eead92e22bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1258232f2fd5ee0664a8644a9ddf118') in 0.014350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Treys/Spaceships/Prefabs/6.3.prefab
+  artifactKey: Guid(72dc4f7f63f4f484f99c7ec75dd94b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treys/Spaceships/Prefabs/6.3.prefab using Guid(72dc4f7f63f4f484f99c7ec75dd94b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93e28287efdcfb7bec55ccfdf8da30de') in 0.016664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Treys/Spaceships/Prefabs/7.3.prefab
+  artifactKey: Guid(fc450f02108606547968dc9d58abd4ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treys/Spaceships/Prefabs/7.3.prefab using Guid(fc450f02108606547968dc9d58abd4ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e94fc913b51993e4906be04f9345dfc4') in 0.015716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Treys/Spaceships/Prefabs/4.2.prefab
+  artifactKey: Guid(d899c8669c7dcf6448ca3076582b8128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treys/Spaceships/Prefabs/4.2.prefab using Guid(d899c8669c7dcf6448ca3076582b8128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eeecd03e036075c73b2e4dc02a49b07') in 0.020621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.029051 seconds.
+  path: Assets/Treys/Spaceships/Textures/palette.png
+  artifactKey: Guid(a5c43b1f8e132234f87b1ef20016336b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treys/Spaceships/Textures/palette.png using Guid(a5c43b1f8e132234f87b1ef20016336b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96f9d3f0faad513f24d34ec78687b689') in 0.065496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.496359 seconds.
+  path: Assets/Treys/Spaceships/Prefabs/7.5.prefab
+  artifactKey: Guid(beea28c2a20a7da49ad215255865d862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treys/Spaceships/Prefabs/7.5.prefab using Guid(beea28c2a20a7da49ad215255865d862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31cf57bf887c7f8bfe1230c0be87bad9') in 0.023806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002158 seconds.
+  path: Assets/Treys/Spaceships/Prefabs/8.3.prefab
+  artifactKey: Guid(dfa0ffded8acc8c47b5c47fd6f8ec232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treys/Spaceships/Prefabs/8.3.prefab using Guid(dfa0ffded8acc8c47b5c47fd6f8ec232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f142f271b9257b057806d14329dfb25') in 0.028616 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002564 seconds.
+  path: Assets/Treys/Spaceships/Prefabs/9.1.prefab
+  artifactKey: Guid(375d8a55f513af3499bbcd48ead0bdd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treys/Spaceships/Prefabs/9.1.prefab using Guid(375d8a55f513af3499bbcd48ead0bdd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41710e08de8a00fa223c609225986300') in 0.030713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Treys/Spaceships/Prefabs/9.5.prefab
+  artifactKey: Guid(433d8a2e5f58efd488f42dcc16cece8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treys/Spaceships/Prefabs/9.5.prefab using Guid(433d8a2e5f58efd488f42dcc16cece8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db74c4d5785ec5366ff338557abe0584') in 0.018500 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Treys/Spaceships/Prefabs/10.1.prefab
+  artifactKey: Guid(291b42fb06ae864409a7a9bda68067d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treys/Spaceships/Prefabs/10.1.prefab using Guid(291b42fb06ae864409a7a9bda68067d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '694e008c18159cac0b3ae201c57f3ebd') in 0.017942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Treys/Spaceships/Prefabs/9.2.prefab
+  artifactKey: Guid(14f2aa49c10232c4bb48bf85c36d0061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treys/Spaceships/Prefabs/9.2.prefab using Guid(14f2aa49c10232c4bb48bf85c36d0061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c47aa7444ff4681f2afb761094b79b7') in 0.015697 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

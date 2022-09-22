@@ -1,0 +1,115 @@
+using System.Collections;
+using System.Linq;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class GameManager : MonoBehaviour
+{
+    public int enemyRows = 5;
+    public int enemyCols = 10;
+    public float enemyLeft = Constants.minEnemyX+1, enemyRight = Constants.maxEnemyX-1, enemyTop = Constants.maxEnemyY, enemyBottom = Constants.minEnemyY;
+    public float spinPower = 5.0f;
+    public Vector3 playerStartingPoint = new Vector3(0.0f, -10.0f, Constants.Depth);
+    public Vector3 playerOriginPoint = new Vector3(0.0f, -20.0f, Constants.Depth);
+    public GameObject enemies;
+    public GameObject enemiesBatch;
+    public GameObject enemy;
+    public GameObject player;
+
+
+
+    public string nextScene;
+    // Start is called before the first frame update
+    void Start()
+    {
+        InstatntiateEnemies();
+        InstantiatePlayer();
+    }
+
+    private void InstantiatePlayer()
+    {
+        float timeToPlace = Random.Range(Constants.MinPlayerTimeToPlace, Constants.MaxPlayerTimeToPlace);
+        StartCoroutine(
+                InstantiateAndFlyToPlace(playerOriginPoint, playerStartingPoint, timeToPlace, player, false, transform, true));
+    }
+
+    private void InstatntiateEnemies()
+    {
+        float enemySize = 1;
+        float rowLength = enemyRight - enemyLeft;
+        float rowSpacing = (rowLength - enemyCols * enemySize) / (enemyCols + 1);
+        float colLength = enemyTop - enemyBottom;
+        float colSpacing = (colLength - enemyRows * enemySize) / (enemyRows + 1);
+        GameObject enemiesGameObject = Instantiate(enemies, transform);
+        for (int i = 0; i < enemyRows; i++)
+        {
+            GameObject enemiesRowGameObject = Instantiate(enemiesBatch, enemiesGameObject.transform);
+            enemiesRowGameObject.GetComponent<Batch>().SetChildrenCount(enemyCols);
+            for (int j = 0; j < enemyCols; j++)
+            {
+                Vector3 originPosition = new Vector3(Random.value*rowLength+enemyLeft, Random.value*colLength+enemyBottom, Random.value*Constants.Depth);
+                Vector3 startingPosition = new Vector3(enemyLeft + (1.0f + j) * (rowSpacing + enemySize), enemyBottom + (1.0f + i) * (colSpacing + enemySize), Constants.Depth);
+                float enemyTimeToPlace = Random.Range(Constants.MinPlayerTimeToPlace, Constants.MaxPlayerTimeToPlace);
+                StartCoroutine(
+                InstantiateAndFlyToPlace(originPosition, startingPosition, enemyTimeToPlace, enemy, true, enemiesRowGameObject.transform, false));
+            }
+        }
+    }
+
+    private IEnumerator InstantiateAndFlyToPlace(Vector3 originPosition, Vector3 destinationPosition, float timeToPlace, GameObject gameObject, bool spin, Transform parent, bool setGameManager)
+    {
+        GameObject GameObjectInstance = Instantiate(gameObject, originPosition, Quaternion.identity, parent);
+        if (spin)
+        {
+            GameObjectInstance.GetComponent<Rigidbody>().AddTorque(new Vector3(Random.value, Random.value, Random.value)* spinPower);
+        }
+        float distance = Mathf.Abs((GameObjectInstance.transform.position - destinationPosition).magnitude);
+        while (Mathf.Abs((GameObjectInstance.transform.position - destinationPosition).magnitude) > 0.01f)
+        {
+            Vector3 direction = destinationPosition - GameObjectInstance.transform.position;
+            GameObjectInstance.transform.position = GameObjectInstance.transform.position + direction.normalized * distance * Time.deltaTime / timeToPlace;
+            yield return null;
+        }
+        GameObjectInstance.SendMessage("SetActive");
+        if (GameObjectInstance.tag != "Player")
+        {
+            GameObjectInstance.SendMessageUpwards("SetChildrenActive"); //TODO remove from player
+        }
+        if (setGameManager)
+        {
+            GameObjectInstance.GetComponent<Player>().setGameManager(this.gameObject);
+        }
+    }
+
+    public void EndGame()
+    {
+        StartCoroutine(EndGameCoroutine());
+    }
+    private IEnumerator EndGameCoroutine()
+    {
+        yield return new WaitForSeconds(3);
+        SceneManager.LoadScene(Constants.MainMenuScene);
+    }
+
+    private void ChildrenDestroyed()
+    {
+        StartCoroutine(ChildrenDestroyedCoroutine()); 
+    }
+
+    private IEnumerator ChildrenDestroyedCoroutine()
+    {
+        yield return new WaitForSeconds(0.5f);
+        Transform[] childrenTransforms = gameObject.GetComponentsInChildren<Transform>();
+        childrenTransforms = childrenTransforms.Where(transform => transform.gameObject.tag == "Enemy").ToArray();
+        if (childrenTransforms.Length == 0)
+        {
+            StartCoroutine(NextSceneCoroutine());
+        }
+    }
+
+    private IEnumerator NextSceneCoroutine()
+    {
+        yield return new WaitForSeconds(3);
+        SceneManager.LoadScene(nextScene);
+    }
+}

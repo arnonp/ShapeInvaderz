@@ -1,0 +1,27 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public static class Constants
+{
+    public static string
+         MainMenuScene = "MainMenu",
+         ShapeInvaders1Scene = "ShapeInvaders1";
+
+    public static float
+        Depth = 20.0f,
+        MinPlayerTimeToPlace = 1.0f,
+        MaxPlayerTimeToPlace = 2.0f,
+        minPlayerX = -30.0f,
+        maxPlayerX = 30.0f,
+        minPlayerY = -15.0f,
+        maxPlayerY = 15.0f,
+        minEnemyX = -25.0f,
+        maxEnemyX = 25.0f,
+        minEnemyY = 0.0f,
+        maxEnemyY = 10.0f,
+        MinEnemyY = 0.0f;
+
+
+
+}

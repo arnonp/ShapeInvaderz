@@ -1,0 +1,605 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1663776662325470, "dur":3674, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663776662329160, "dur":254, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1663776662329489, "dur":57, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1663776662329549, "dur":3571, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1663776662333313, "dur":1170, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663776662334483, "dur":3, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663776664237216, "dur":382, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663776664237598, "dur":827, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663776664238425, "dur":142, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663776664238568, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663776664238580, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663776664238583, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663776664238592, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663776664238593, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663776664238601, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663776664238603, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663776664238611, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663776664238612, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663776664238620, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663776664238623, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663776664238631, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663776664238633, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663776664238639, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663776664238641, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663776664238648, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663776664238650, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663776664238658, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663776664238659, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663776664238675, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663776664238678, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663776664238685, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663776664238687, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663776664238694, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663776664238696, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663776664238703, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663776664238704, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663776664238711, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663776664238712, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663776664238726, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663776664238744, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663776664238760, "dur":2926, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1663776662331505, "dur":3102, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663776662334607, "dur":9994, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663776662344611, "dur":515, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1663776662345130, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663776662469246, "dur":17984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1663776662487348, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663776662487463, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663776662487477, "dur":78947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663776662566455, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663776662566483, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663776662566488, "dur":220710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663776662787234, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663776662787281, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663776662787308, "dur":110676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663776662898012, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663776662898040, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663776662898044, "dur":141692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663776663039831, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663776663039917, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663776663039928, "dur":184415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663776663224380, "dur":79987, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663776663304376, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663776663304390, "dur":3329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663776663307781, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663776663307847, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663776663307857, "dur":321947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663776663629906, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663776663629990, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663776663630004, "dur":607006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663776664237074, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1663776664237077, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663776662333892, "dur":1423, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663776662335316, "dur":9313, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663776662344631, "dur":1241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1663776662345880, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663776662390551, "dur":34204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1663776662424858, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663776662424930, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663776662424943, "dur":95807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663776662520781, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663776662520827, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663776662520833, "dur":77898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663776662598767, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663776662598798, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663776662598803, "dur":382156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663776662981028, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663776662981109, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663776662981152, "dur":78842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663776663060093, "dur":159053, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663776663219157, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663776663219175, "dur":3508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663776663222758, "dur":87235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663776663310023, "dur":15, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663776663310045, "dur":1008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663776663311094, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663776663311124, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663776663311141, "dur":318689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663776663629911, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663776663629989, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663776663630000, "dur":388506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663776664018538, "dur":218692, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663776662332124, "dur":2601, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663776662334726, "dur":9872, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663776662344612, "dur":432, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1663776662345048, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663776662350380, "dur":92093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1663776662442527, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663776662442581, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663776662442589, "dur":160449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663776662603135, "dur":370899, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663776662974044, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663776662974059, "dur":5697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663776662979852, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663776662980009, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663776662980027, "dur":191185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663776663171291, "dur":223357, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663776663394655, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663776663394667, "dur":1872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663776663396610, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663776663396680, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663776663396691, "dur":381955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663776663778721, "dur":458481, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663776662332330, "dur":2505, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663776662334836, "dur":9832, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663776662344670, "dur":1289, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1663776662345966, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663776662350381, "dur":42105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1663776662392571, "dur":336, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663776662392917, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663776662393653, "dur":90963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663776662484694, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663776662484779, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663776662484790, "dur":80474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663776662565355, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663776662565437, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663776662565449, "dur":137491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663776662703007, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663776662703096, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663776662703118, "dur":128297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663776662831445, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663776662831473, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663776662831479, "dur":78328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663776662909877, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663776662909946, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663776662909958, "dur":142574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663776663052614, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663776663052707, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663776663052719, "dur":88741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663776663141532, "dur":75393, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663776663216936, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663776663216954, "dur":2364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663776663219401, "dur":4638, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663776663224042, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663776663224048, "dur":890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663776663224974, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663776663225028, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663776663225034, "dur":195972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663776663421050, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663776663421084, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663776663421089, "dur":509654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663776663930780, "dur":306411, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663776662335299, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663776662335300, "dur":9322, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663776662344624, "dur":565, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1663776662345193, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663776662363139, "dur":27258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1663776662390511, "dur":248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1663776662390774, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663776662390789, "dur":28881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1663776662419732, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663776662419774, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663776662419780, "dur":109124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663776662529008, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663776662529095, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663776662529107, "dur":60601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663776662589780, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663776662589861, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663776662589873, "dur":55586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663776662645512, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663776662645563, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663776662645584, "dur":165158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663776662810825, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663776662810910, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663776662810921, "dur":203471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663776663014473, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663776663014564, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663776663014576, "dur":97544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663776663112191, "dur":278154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663776663390349, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663776663390356, "dur":930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663776663391328, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663776663391361, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663776663391370, "dur":422128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663776663813532, "dur":423704, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663776662332946, "dur":2089, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663776662335035, "dur":9569, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663776662344611, "dur":1093, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1663776662345710, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663776662388642, "dur":28953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1663776662417662, "dur":214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1663776662417882, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663776662418904, "dur":25373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1663776662444306, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663776662444342, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663776662444347, "dur":78088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663776662522466, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663776662522497, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663776662522506, "dur":69721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663776662592303, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663776662592383, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663776662592395, "dur":155792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663776662748219, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663776662748252, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663776662748257, "dur":102994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663776662851281, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663776662851350, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663776662851356, "dur":75038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663776662926467, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663776662926537, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663776662926548, "dur":169627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663776663096247, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663776663096322, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663776663096334, "dur":127475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663776663223902, "dur":7962, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663776663231872, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663776663231879, "dur":1897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663776663233850, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663776663233925, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663776663233936, "dur":109304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663776663343285, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663776663343314, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663776663343319, "dur":166883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663776663510229, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663776663510257, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663776663510261, "dur":229614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663776663739906, "dur":497292, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663776662336274, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663776662336276, "dur":8398, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663776662344675, "dur":1198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1663776662345881, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663776662414692, "dur":3418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1663776662418161, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663776662418214, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663776662418519, "dur":210447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663776662629002, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663776662629062, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663776662629070, "dur":165478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663776662794620, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663776662794701, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663776662794752, "dur":75288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663776662870111, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663776662870181, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663776662870192, "dur":81232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663776662951495, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663776662951566, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663776662951578, "dur":67183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663776663018834, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663776663018987, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663776663019003, "dur":96804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663776663115882, "dur":760116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663776663876005, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663776663876014, "dur":3900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663776663879945, "dur":357318, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663776662333576, "dur":1639, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663776662335215, "dur":9418, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663776662344634, "dur":511, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1663776662345155, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663776662362829, "dur":1096744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1663776663459646, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663776663459717, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663776663459728, "dur":214355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663776663674152, "dur":53733, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":8, "ts":1663776663727894, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663776663728714, "dur":19657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":8, "ts":1663776663748441, "dur":488778, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663776662331816, "dur":2881, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663776662334698, "dur":10013, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663776662344712, "dur":570, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1663776662345284, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663776662385619, "dur":32857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1663776662418624, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663776662418732, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663776662418773, "dur":159536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663776662578386, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663776662578469, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663776662578480, "dur":71894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663776662650452, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663776662650532, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663776662650545, "dur":91103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663776662741696, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663776662741736, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663776662741741, "dur":68742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663776662810563, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663776662810645, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663776662810655, "dur":121200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663776662931886, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663776662931915, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663776662931920, "dur":107418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663776663039438, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663776663039543, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663776663039571, "dur":470326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663776663509928, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663776663509966, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663776663509973, "dur":327060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663776663837102, "dur":400115, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663776662334255, "dur":1132, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663776662335388, "dur":9247, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663776662344636, "dur":567, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1663776662345207, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663776662364566, "dur":28062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1663776662392767, "dur":226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663776662393000, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663776662393374, "dur":181606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663776662575067, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663776662575155, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663776662575166, "dur":122187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663776662697446, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663776662697536, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663776662697552, "dur":112367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663776662810036, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663776662810157, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663776662810174, "dur":129405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663776662939651, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663776662939720, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663776662939732, "dur":60751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663776663000556, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663776663000630, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663776663000642, "dur":120203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663776663120918, "dur":48303, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663776663169230, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663776663169245, "dur":2250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663776663171576, "dur":47026, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663776663218611, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663776663218626, "dur":3144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663776663221854, "dur":2673, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663776663224544, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663776663224553, "dur":792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663776663225393, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663776663225420, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663776663225424, "dur":464961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663776663690463, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":10, "ts":1663776663690536, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663776663690632, "dur":1937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":10, "ts":1663776663692632, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":10, "ts":1663776663692700, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663776663692709, "dur":2265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":10, "ts":1663776663695045, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":10, "ts":1663776663695111, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663776663695121, "dur":2031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":10, "ts":1663776663697241, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":10, "ts":1663776663697327, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663776663697341, "dur":2807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":10, "ts":1663776663700219, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":10, "ts":1663776663700268, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663776663700275, "dur":1039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":10, "ts":1663776663701352, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1663776663701383, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663776663701387, "dur":3892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1663776663705310, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":10, "ts":1663776663705340, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663776663705344, "dur":804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":10, "ts":1663776663706190, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":10, "ts":1663776663706220, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663776663706223, "dur":4276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":10, "ts":1663776663710575, "dur":236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":10, "ts":1663776663710815, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663776663710836, "dur":2158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":10, "ts":1663776663713086, "dur":2236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":10, "ts":1663776663715330, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663776663715347, "dur":2934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":10, "ts":1663776663718350, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/resources.assets" }}
+,{ "pid":12345, "tid":10, "ts":1663776663718427, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663776663718514, "dur":1909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/resources.assets" }}
+,{ "pid":12345, "tid":10, "ts":1663776663720452, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/level7" }}
+,{ "pid":12345, "tid":10, "ts":1663776663720494, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663776663720498, "dur":1162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/level7" }}
+,{ "pid":12345, "tid":10, "ts":1663776663721724, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/level6" }}
+,{ "pid":12345, "tid":10, "ts":1663776663721793, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663776663721801, "dur":2360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/level6" }}
+,{ "pid":12345, "tid":10, "ts":1663776663724245, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/level5" }}
+,{ "pid":12345, "tid":10, "ts":1663776663724314, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663776663724323, "dur":2297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/level5" }}
+,{ "pid":12345, "tid":10, "ts":1663776663726699, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/level4" }}
+,{ "pid":12345, "tid":10, "ts":1663776663726770, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663776663726783, "dur":2575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/level4" }}
+,{ "pid":12345, "tid":10, "ts":1663776663729386, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/level3" }}
+,{ "pid":12345, "tid":10, "ts":1663776663729412, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663776663729415, "dur":1745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/level3" }}
+,{ "pid":12345, "tid":10, "ts":1663776663731271, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/level2" }}
+,{ "pid":12345, "tid":10, "ts":1663776663731366, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663776663731375, "dur":3232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/level2" }}
+,{ "pid":12345, "tid":10, "ts":1663776663734667, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/level1.resS" }}
+,{ "pid":12345, "tid":10, "ts":1663776663734695, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663776663734699, "dur":1455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/level1.resS" }}
+,{ "pid":12345, "tid":10, "ts":1663776663736184, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/level0.resS" }}
+,{ "pid":12345, "tid":10, "ts":1663776663736215, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663776663736219, "dur":1349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/level0.resS" }}
+,{ "pid":12345, "tid":10, "ts":1663776663737644, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":10, "ts":1663776663737722, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663776663737732, "dur":1763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":10, "ts":1663776663739523, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/boot.config" }}
+,{ "pid":12345, "tid":10, "ts":1663776663739650, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663776663739655, "dur":1115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/boot.config" }}
+,{ "pid":12345, "tid":10, "ts":1663776663740800, "dur":496458, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1663776662334582, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1663776662334584, "dur":10001, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1663776662344610, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":11, "ts":1663776662344613, "dur":1721, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1663776662346348, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/app.info" }}
+,{ "pid":12345, "tid":11, "ts":1663776662346357, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1663776662347315, "dur":20353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/app.info" }}
+,{ "pid":12345, "tid":11, "ts":1663776662367675, "dur":276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1663776662367956, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1663776662368091, "dur":1100675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1663776663468852, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663776663468927, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1663776663468939, "dur":197604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663776663666612, "dur":233401, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663776663900023, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1663776663900038, "dur":2227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663776663902345, "dur":334888, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663776662334958, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663776662334959, "dur":9754, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663776662344713, "dur":493, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1663776662345208, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663776662365560, "dur":31422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1663776662397086, "dur":245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":12, "ts":1663776662397338, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663776662397355, "dur":132486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":12, "ts":1663776662529931, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1663776662530010, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663776662530020, "dur":178138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1663776662708199, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1663776662708237, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663776662708245, "dur":117675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1663776662825990, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1663776662826061, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663776662826072, "dur":160844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1663776662986997, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1663776662987113, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663776662987125, "dur":83916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1663776663071115, "dur":313854, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1663776663385020, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663776663385034, "dur":2193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1663776663387290, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":12, "ts":1663776663387354, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663776663387365, "dur":141640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":12, "ts":1663776663529071, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":12, "ts":1663776663529136, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663776663529147, "dur":168436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":12, "ts":1663776663697678, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":12, "ts":1663776663697759, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663776663697768, "dur":2688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":12, "ts":1663776663700502, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":12, "ts":1663776663700550, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663776663700556, "dur":1091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":12, "ts":1663776663701679, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":12, "ts":1663776663701714, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663776663701719, "dur":4396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":12, "ts":1663776663706155, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1663776663706212, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663776663706216, "dur":9122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1663776663715449, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1663776663715531, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663776663715542, "dur":4128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1663776663719697, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/level7.resS" }}
+,{ "pid":12345, "tid":12, "ts":1663776663719725, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663776663719729, "dur":1075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/level7.resS" }}
+,{ "pid":12345, "tid":12, "ts":1663776663720842, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/level6.resS" }}
+,{ "pid":12345, "tid":12, "ts":1663776663720888, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663776663720894, "dur":2810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/level6.resS" }}
+,{ "pid":12345, "tid":12, "ts":1663776663723786, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/level5.resS" }}
+,{ "pid":12345, "tid":12, "ts":1663776663723858, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663776663723867, "dur":2496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/level5.resS" }}
+,{ "pid":12345, "tid":12, "ts":1663776663726438, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/level4.resS" }}
+,{ "pid":12345, "tid":12, "ts":1663776663726517, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663776663726529, "dur":2725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/level4.resS" }}
+,{ "pid":12345, "tid":12, "ts":1663776663729284, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/level3.resS" }}
+,{ "pid":12345, "tid":12, "ts":1663776663729324, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663776663729330, "dur":1820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/level3.resS" }}
+,{ "pid":12345, "tid":12, "ts":1663776663731255, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/level2.resS" }}
+,{ "pid":12345, "tid":12, "ts":1663776663731334, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663776663731343, "dur":3135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/level2.resS" }}
+,{ "pid":12345, "tid":12, "ts":1663776663734673, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/level1" }}
+,{ "pid":12345, "tid":12, "ts":1663776663734714, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663776663734718, "dur":1520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/level1" }}
+,{ "pid":12345, "tid":12, "ts":1663776663736265, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/level0" }}
+,{ "pid":12345, "tid":12, "ts":1663776663736291, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663776663736295, "dur":1844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/level0" }}
+,{ "pid":12345, "tid":12, "ts":1663776663738211, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":12, "ts":1663776663738285, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663776663738297, "dur":1450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":12, "ts":1663776663739782, "dur":497426, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1663776662332672, "dur":2255, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1663776662334928, "dur":9713, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1663776662344642, "dur":611, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":13, "ts":1663776662345256, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1663776662384314, "dur":32906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":13, "ts":1663776662417312, "dur":26691, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz.exe" }}
+,{ "pid":12345, "tid":13, "ts":1663776662444009, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1663776662444016, "dur":29264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz.exe" }}
+,{ "pid":12345, "tid":13, "ts":1663776662473320, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663776662473367, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1663776662473374, "dur":134504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663776662607951, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663776662608021, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1663776662608032, "dur":61876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663776662669973, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663776662670072, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1663776662670084, "dur":117160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663776662787280, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663776662787313, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1663776662787317, "dur":109863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663776662897451, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663776662897658, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1663776662897683, "dur":63404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663776662961186, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663776662961286, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1663776662961304, "dur":73477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663776663034855, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663776663034929, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1663776663034945, "dur":160318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663776663195336, "dur":196328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663776663391672, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1663776663391684, "dur":1839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663776663393597, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663776663393668, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1663776663393678, "dur":146667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663776663540410, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663776663540474, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1663776663540484, "dur":214151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663776663754704, "dur":482531, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1663776662335565, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1663776662335567, "dur":9072, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1663776662344640, "dur":1300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":14, "ts":1663776662345946, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1663776662350467, "dur":40150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":14, "ts":1663776662390713, "dur":467, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":14, "ts":1663776662391187, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1663776662391200, "dur":5337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":14, "ts":1663776662396643, "dur":265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663776662396914, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1663776662396971, "dur":221738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663776662618786, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663776662618864, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1663776662618876, "dur":133697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663776662752651, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663776662752730, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1663776662752741, "dur":90159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663776662842971, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663776662843042, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1663776662843054, "dur":49416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663776662892550, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663776662892621, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1663776662892633, "dur":271342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663776663164047, "dur":58451, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663776663222509, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1663776663222588, "dur":2041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663776663224659, "dur":28195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663776663252906, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1663776663252922, "dur":7048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663776663260036, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663776663260109, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1663776663260120, "dur":156074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663776663416260, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663776663416328, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1663776663416339, "dur":563703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663776663980072, "dur":257132, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1663776662335905, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1663776662335906, "dur":8766, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1663776662344674, "dur":679, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":15, "ts":1663776662345355, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1663776662387017, "dur":1353977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":15, "ts":1663776663741023, "dur":496183, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1663776662333226, "dur":1912, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1663776662335139, "dur":9537, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1663776662344677, "dur":1247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":16, "ts":1663776662345931, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1663776662415124, "dur":94646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":16, "ts":1663776662509851, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1663776662509931, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1663776662509943, "dur":281404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1663776662791398, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1663776662791432, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1663776662791437, "dur":75401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1663776662866943, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1663776662867024, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1663776662867036, "dur":55864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1663776662922973, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1663776662923044, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1663776662923055, "dur":65053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1663776662988185, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1663776662988275, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1663776662988286, "dur":74158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1663776663062513, "dur":227821, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":16, "ts":1663776663290343, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1663776663290357, "dur":2120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":16, "ts":1663776663292543, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":16, "ts":1663776663292607, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1663776663292618, "dur":563095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Projects/ShapeInvaders/ShapeInvaderz_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":16, "ts":1663776663855761, "dur":381451, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663776664243831, "dur":4138, "ph":"X", "name": "ProfilerWriteOutput" }
+,

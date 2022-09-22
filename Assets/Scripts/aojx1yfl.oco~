@@ -1,0 +1,31 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Player : MonoBehaviour
+{
+    public Vector3 startingPoint = new Vector3(0.0f, -10.0f, Constants.Depth);
+    public Vector3 originPoint = new Vector3(0.0f, -20.0f, Constants.Depth);
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        transform.position = originPoint;
+        StartCoroutine(FlyToPlace());
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+
+    private IEnumerator FlyToPlace()
+    {
+        while(Mathf.Abs(transform.position.x - xStart) > 0.1f || Mathf.Abs(transform.position.y - yStart) > 0.1f || Mathf.Abs(transform.position.z - zStart) > 0.1f)
+        {
+            tra
+            return null;
+        }
+    }
+}

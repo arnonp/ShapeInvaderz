@@ -1,0 +1,21 @@
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class MainMenuInterface : MonoBehaviour
+{
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    public void ClickExit()
+    {
+        Application.Quit();
+    }
+
+    public void ClickPlay()
+    {
+        SceneManager.LoadScene(Constants.InstructionsSceneName);
+    }
+}
